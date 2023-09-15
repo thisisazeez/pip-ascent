@@ -9,7 +9,7 @@ from subprocess import call
 from setuptools import Command, find_packages, setup
 
 
-this_dir = abspath(dirname(__file__))
+# this_dir = abspath(dirname(__file__))
 # with open(join(this_dir, 'README.md'), encoding='utf-8') as file:
 #     long_description = file.read()
 
@@ -34,7 +34,7 @@ class RunTests(Command):
 setup(
     name='pip-ascent',
     use_scm_version=True,
-    version=VERSION,
+    # version=VERSION,
     setup_requires=['setuptools_scm'],
     description='A dynamic tool for upgrading pip requirements that seamlessly synchronizes the version changes within your requirements.txt file.',
     # long_description=long_description,
