@@ -1,3 +1,5 @@
+## pip-ascent
+
 A versatile tool for effortlessly updating pip requirements while keeping your requirements.txt file in sync with the latest package versions. No more tedious manual package-by-package upgrades; this tool handles it for you and updates your requirements.txt file accordingly.
 
 ## Purpose
@@ -43,7 +45,7 @@ Examples:
 pip-ascent             # Automatically discovers the requirements file
 pip-ascent requirements.txt
 pip-ascent requirements/dev.txt requirements/production.txt
-pip-ascent requirements.txt -pk django -p celery
+pip-ascent requirements.txt -pk django -pk celery
 pip-ascent requirements.txt -pk all
 pip-ascent requirements.txt --dry-run  # Runs everything as a simulation (does not perform the actual upgrade)
 ```
