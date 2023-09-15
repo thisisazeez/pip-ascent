@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 ## pip-ascent
 
 A versatile tool for effortlessly updating pip requirements while keeping your requirements.txt file in sync with the latest package versions. No more tedious manual package-by-package upgrades; this tool handles it for you and updates your requirements.txt file accordingly.
@@ -41,27 +42,32 @@ Arguments:
 
 Examples:
 
-```bash
-pip-ascent             # Automatically discovers the requirements file
-pip-ascent requirements.txt
-pip-ascent requirements/dev.txt requirements/production.txt
-pip-ascent requirements.txt -pk django -pk celery
-pip-ascent requirements.txt -pk all
-pip-ascent requirements.txt --dry-run  # Runs everything as a simulation (does not perform the actual upgrade)
-```
+- `pip-ascent`: Automatically discovers the requirements file.
+
+- `pip-ascent requirements.txt`
+
+- `pip-ascent requirements/dev.txt requirements/production.txt`
+
+- `pip-ascent requirements.txt -pk django -pk celery`
+
+- `pip-ascent requirements.txt -pk all`
+
+- `pip-ascent requirements.txt --dry-run`:  Runs everything as a simulation (does not perform the actual upgrade)
+
 
 ## 💖 Like this project?
 
 Leave a ⭐ if you find this project cool.
 
-[Share with the world](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%thisisazeez%2Fpip-ascent&via=sifusherif&text=Check%20out%20this%20awesome%20pip-ascent%20tool%20for%20easily%20upgrading%20your%20pip%20requirements%20and%20keeping%20your%20requirements.txt%20file%20in%20sync%20with%20the%20latest%20package%20versions%21%20%F0%9F%9A%80%20%23Python%20%23Pip%20%23PackageManagement%20%23DevelopmentTools%20%23OpenSource%20%23DevOps%20%23Coding%20%23Programming%20%23Tech%20%23CLI%20%23DeveloperTools%20%23Upgrade&hashtags=python%2Cpip%2Crequirements%2Cdevtools%2Copensource%2Cdevops%2Ccoding%2Cprogramming%2Ctech%2Ccli%2Cdevtools%2Cupgrade) ✨
+[Share with the world](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthisisazeez%2Fpip-ascent&via=sifusherif&text=Check%20out%20this%20awesome%20pip-ascent%20tool%20for%20easily%20upgrading%20your%20pip%20requirements%20and%20keeping%20your%20requirements.txt%20file%20in%20sync%20with%20the%20latest%20package%20versions%21%20%F0%9F%9A%80) ✨
 
 ## 👨‍💻 Author
 
 ### Abdulazeez Sherif
 
 [Twitter](https://twitter.com/sifusherif "Abdulazeez Sherif")
-
 ## 🍁 License
 
 **MIT**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
