@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools", 'docopt', 'packaging', 'requests', 'terminaltables', 'colorclass']
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -23,6 +23,8 @@ classifiers = [
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
 ]
+
+dynamic = ["license"]
 
 [project.urls]
 "Homepage" = "https://github.com/thisisazeez/pip-ascent"

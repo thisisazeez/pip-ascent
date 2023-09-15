@@ -8,7 +8,8 @@ from codecs import open
 from os.path import abspath, dirname, join
 from subprocess import call
 
-from setuptools import Command, find_packages, setup
+from setuptools import Command, find_namespace_packages, setup
+
 
 
 this_dir = abspath(dirname(__file__))
@@ -58,7 +59,7 @@ setup(
         'Programming Language :: Python :: 3.11',
     ],
     keywords='cli,pip,pypi,requirements,upgrade',
-    packages=find_packages(exclude=['docs', 'tests*']),
+    packages=find_namespace_packages(include=['utils*'], exclude=['docs', 'tests*']),
     install_requires=['docopt', 'packaging', 'requests', 'terminaltables', 'colorclass'],
     extras_require={
         'test': ['coverage', 'pytest', 'pytest-cov', 'pytest-pep8', 'mock', 'responses'],
