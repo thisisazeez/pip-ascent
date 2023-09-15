@@ -1,0 +1,3 @@
+# this file is only used for testing the cli
+
+celery # we also clean inline comments

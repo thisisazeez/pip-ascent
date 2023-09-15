@@ -1,0 +1,7 @@
+# this file is only used for testing the cli
+-r production.txt
+
+ipython
+
+# this kind of upgrade is not yet supported
+ipdb
