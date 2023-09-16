@@ -24,7 +24,7 @@ classifiers = [
     'Programming Language :: Python :: 3.11',
 ]
 
-dynamic = ["license", "dependencies"]
+dynamic = ["license", "dependencies", "keywords", "scripts", "optional-dependencies"]
 
 [project.urls]
 "Homepage" = "https://github.com/thisisazeez/pip-ascent"
