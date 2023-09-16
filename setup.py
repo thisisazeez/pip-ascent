@@ -2,7 +2,7 @@
 
 """Just a docstring passing by"""
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 
 from codecs import open
 from os.path import abspath, dirname, join
@@ -59,7 +59,7 @@ setup(
         'Programming Language :: Python :: 3.11',
     ],
     keywords='cli,pip,pypi,requirements,upgrade',
-    packages=find_namespace_packages(include=['utils*'], exclude=['docs', 'tests*']),
+    packages=find_namespace_packages(exclude=['docs', 'tests*']),
     install_requires=['docopt', 'packaging', 'requests', 'terminaltables', 'colorclass'],
     extras_require={
         'test': ['coverage', 'pytest', 'pytest-cov', 'pytest-pep8', 'mock', 'responses'],

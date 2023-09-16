@@ -33,12 +33,12 @@ from colorclass import Windows, Color
 from docopt import docopt
 
 from pip_ascent import __version__ as VERSION
-from pip_ascent.utils.PackageDetector import PackageDetector
-from pip_ascent.utils.InteractivePackageSelector import InteractivePackageSelector
-from pip_ascent.utils.package_status_detector import PackageStatusDetector
-from pip_ascent.utils.package_upgrader import PackageUpgrader
-from pip_ascent.utils.requirements_detector import RequirementsDetector
-from pip_ascent.utils.virtualenv_checker import check_for_virtualenv
+from pip_ascent.PackageDetector import PackageDetector
+from pip_ascent.InteractivePackageSelector import InteractivePackageSelector
+from pip_ascent.PackageStatusDetector import PackageStatusDetector
+from pip_ascent.PackageUpgrader import PackageUpgrader
+from pip_ascent.RequirementsDetector import RequirementsDetector
+from pip_ascent.virtualenv_checker import check_for_virtualenv
 
 
 def get_options():
