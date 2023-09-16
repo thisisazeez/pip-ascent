@@ -70,4 +70,6 @@ Leave a ⭐ if you find this project cool.
 
 **MIT**
 
+**Note:** This package is just starting out feel free to make contributions.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
