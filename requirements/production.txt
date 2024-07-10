@@ -1,3 +1,4 @@
 # this file is only used for testing the cli
 
 celery # we also clean inline comments
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
